@@ -1,0 +1,12 @@
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\Alan Nandoso.dll.config
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\Alan Nandoso.dll
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\Alan Nandoso.pdb
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\Microsoft.Owin.xml
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\Microsoft.Owin.Security.xml
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\Newtonsoft.Json.xml
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\obj\Debug\Alan Nandoso.csprojResolveAssemblyReference.cache
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\obj\Debug\Alan Nandoso.dll
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\obj\Debug\Alan Nandoso.pdb
