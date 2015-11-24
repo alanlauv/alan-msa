@@ -20,3 +20,6 @@ C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\EntityFram
 C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\System.Net.Http.Formatting.xml
 C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\System.Web.Http.xml
 C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\System.Web.Http.WebHost.xml
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\Swashbuckle.Core.dll
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\WebActivatorEx.dll
