@@ -8,7 +8,6 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
-using Alan_Nandoso.Model;
 using Alan_Nandoso.Models;
 
 namespace Alan_Nandoso.Controllers

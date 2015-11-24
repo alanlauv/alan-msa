@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Alan_Nandoso.Model
+namespace Alan_Nandoso.Models
 {
     public class Reply
     {
