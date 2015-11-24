@@ -48,9 +48,9 @@ namespace Alan_Nandoso.Models
 
                 var replies = new List<Reply>
             {
-                new Reply {Name = "Abra", Body = "Reply 1", Date = DateTime.Parse("2010-09-01"), CommentID = comments.Single(s => s.Name == "Carson").ID },
-                new Reply {Name = "James", Body = "Reply 2", Date = DateTime.Parse("2010-09-02"), CommentID = comments.Single(s => s.Name == "Carson").ID },
-                new Reply {Name = "Dixon", Body = "Reply 3", Date = DateTime.Parse("2010-09-02"), CommentID = comments.Single(s => s.Name == "Alexander").ID },
+                new Reply {Name = "Abra", Body = "Reply 1", Date = DateTime.Parse("2010-09-01"), CommentID = comments.Single(c => c.Name == "Carson").ID },
+                new Reply {Name = "James", Body = "Reply 2", Date = DateTime.Parse("2010-09-02"), CommentID = comments.Single(c => c.Name == "Carson").ID },
+                new Reply {Name = "Dixon", Body = "Reply 3", Date = DateTime.Parse("2010-09-02"), CommentID = comments.Single(c => c.Name == "Alexander").ID },
             };
 
                 foreach (Reply r in replies)
