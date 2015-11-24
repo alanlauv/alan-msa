@@ -12,8 +12,9 @@ namespace Alan_Nandoso.Model
         public string Name { get; set; }
         public string Body { get; set; }
         public DateTime Date { get; set; }
+        public int CommentID { get; set; }
 
         [JsonIgnore]
-        public virtual ICollection<Comment> Comments { get; set; }
+        public virtual Comment Comment { get; set; }
     }
 }

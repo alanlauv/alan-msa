@@ -14,6 +14,6 @@ namespace Alan_Nandoso.Model
         public DateTime Date { get; set; }
 
         [JsonIgnore]
-        public virtual Reply Reply { get; set; }
+        public virtual ICollection<Reply> Replies { get; set; }
     }
 }
