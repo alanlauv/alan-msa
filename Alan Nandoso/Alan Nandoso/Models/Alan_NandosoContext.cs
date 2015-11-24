@@ -37,27 +37,32 @@ namespace Alan_Nandoso.Models
             }
         }
 
-        protected override void Seed(Alan_NandosoContext context)
+        protected void Seed(Alan_NandosoContext context)
         {
+            var comments = new List<Comment>
             {
-                new Student { FirstMidName = "Carson",   LastName = "Alexander",
-                    EnrollmentDate = DateTime.Parse("2010-09-01") },
-                new Student { FirstMidName = "Meredith", LastName = "Alonso",
-                    EnrollmentDate = DateTime.Parse("2012-09-01") },
-                new Student { FirstMidName = "Arturo",   LastName = "Anand",
-                    EnrollmentDate = DateTime.Parse("2013-09-01") },
-                new Student { FirstMidName = "Gytis",    LastName = "Barzdukas",
-                    EnrollmentDate = DateTime.Parse("2012-09-01") },
-                new Student { FirstMidName = "Yan",      LastName = "Li",
-                    EnrollmentDate = DateTime.Parse("2012-09-01") },
-                new Student { FirstMidName = "Peggy",    LastName = "Justice",
-                    EnrollmentDate = DateTime.Parse("2011-09-01") },
-                new Student { FirstMidName = "Laura",    LastName = "Norman",
-                    EnrollmentDate = DateTime.Parse("2013-09-01") },
-                new Student { FirstMidName = "Nino",     LastName = "Olivetto",
-                    EnrollmentDate = DateTime.Parse("2005-08-11")}
+                new Comment { Name = "Carson",   Body = "Comment 1", Date = DateTime.Parse("2010-09-01") },
+                new Comment { Name = "Alexander", Body = "COmment 2", Date = DateTime.Parse("2012-09-01") }
             };
-            students.ForEach(s => context.Students.AddOrUpdate(p => p.LastName, s));
+            comments.ForEach(c => context.Comments.AddOrUpdate(p => p.Name, c));
+            context.SaveChanges();
+
+            var replies = new List<Reply>
+            {
+                new Reply {Name = "Abra", Body = "Reply 1", Date = DateTime.Parse("2010-09-01"), CommentID = comments.Single(s => s.Name == "Carson").ID },
+                new Reply {Name = "James", Body = "Reply 2", Date = DateTime.Parse("2010-09-02"), CommentID = comments.Single(s => s.Name == "Carson").ID },
+                new Reply {Name = "Dixon", Body = "Reply 3", Date = DateTime.Parse("2010-09-02"), CommentID = comments.Single(s => s.Name == "Alexander").ID },
+            };
+            
+            foreach (Reply r in replies)
+            {
+                var replyInDataBase = context.Replies.Where(
+                    s => s.Comment.ID == r.CommentID).SingleOrDefault();
+                if (replyInDataBase == null)
+                {
+                    context.Replies.Add(r);
+                }
+            }
             context.SaveChanges();
         }
     }
