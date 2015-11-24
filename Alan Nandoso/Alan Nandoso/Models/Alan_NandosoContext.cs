@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Alan_Nandoso.Model;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Migrations;
@@ -38,7 +39,6 @@ namespace Alan_Nandoso.Models
 
         protected override void Seed(Alan_NandosoContext context)
         {
-            var students = new List<Student>
             {
                 new Student { FirstMidName = "Carson",   LastName = "Alexander",
                     EnrollmentDate = DateTime.Parse("2010-09-01") },
