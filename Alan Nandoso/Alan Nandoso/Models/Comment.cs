@@ -11,7 +11,7 @@ namespace Alan_Nandoso.Model
         public int ID { get; set; }
         public string Name { get; set; }
         public string Body { get; set; }
-        public string Date { get; set; }
+        public DateTime Date { get; set; }
 
         [JsonIgnore]
         public virtual Reply Reply { get; set; }
