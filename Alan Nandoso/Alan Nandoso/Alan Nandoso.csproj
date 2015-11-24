@@ -208,6 +208,8 @@
     <Content Include="font-awesome\scss\_variables.scss" />
     <Content Include="LICENSE" />
     <Content Include="README.md" />
+    <None Include="Properties\PublishProfiles\Alan-Nandoso - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\Alan-Nandoso - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
