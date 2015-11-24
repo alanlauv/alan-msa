@@ -10,3 +10,13 @@ C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\Newtonsoft
 C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\obj\Debug\Alan Nandoso.csprojResolveAssemblyReference.cache
 C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\obj\Debug\Alan Nandoso.dll
 C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\obj\Debug\Alan Nandoso.pdb
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\EntityFramework.dll
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\EntityFramework.SqlServer.dll
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\System.Net.Http.Formatting.dll
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\System.Web.Http.dll
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\System.Web.Http.WebHost.dll
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\EntityFramework.xml
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\EntityFramework.SqlServer.xml
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\System.Net.Http.Formatting.xml
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\System.Web.Http.xml
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan Nandoso\Alan Nandoso\bin\System.Web.Http.WebHost.xml
