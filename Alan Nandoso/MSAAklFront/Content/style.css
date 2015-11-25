@@ -1,0 +1,13 @@
+﻿body {
+ 
+}
+
+.spaced-table>thead>tr>th{
+    padding:20px 20px;
+}
+
+.spaced-table>tbody>tr>td{
+    padding: 40px 20px;
+    vertical-align:middle;  /*when you add button it gets weird so need this*/
+}
+
