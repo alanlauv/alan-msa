@@ -40,3 +40,14 @@ C:\Users\Alan\Documents\GitHub\alan-msa\Alan_Nandoso\Alan_Nandoso\bin\System.Web
 C:\Users\Alan\Documents\GitHub\alan-msa\Alan_Nandoso\Alan_Nandoso\obj\Debug\Alan_Nandoso.csprojResolveAssemblyReference.cache
 C:\Users\Alan\Documents\GitHub\alan-msa\Alan_Nandoso\Alan_Nandoso\obj\Debug\Alan_Nandoso.dll
 C:\Users\Alan\Documents\GitHub\alan-msa\Alan_Nandoso\Alan_Nandoso\obj\Debug\Alan_Nandoso.pdb
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan_Nandoso\Alan_Nandoso\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan_Nandoso\Alan_Nandoso\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan_Nandoso\Alan_Nandoso\bin\Microsoft.Owin.dll
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan_Nandoso\Alan_Nandoso\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan_Nandoso\Alan_Nandoso\bin\Microsoft.Owin.Security.dll
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan_Nandoso\Alan_Nandoso\bin\Owin.dll
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan_Nandoso\Alan_Nandoso\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan_Nandoso\Alan_Nandoso\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan_Nandoso\Alan_Nandoso\bin\Microsoft.Owin.xml
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan_Nandoso\Alan_Nandoso\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Alan\Documents\GitHub\alan-msa\Alan_Nandoso\Alan_Nandoso\bin\Microsoft.Owin.Security.xml
