@@ -327,10 +327,20 @@
                 </div>
             </div>
             <div class="row">
-                <input type="text" id="message" />
-                <input type="button" id="sendmessage" value="Send" />
-                <input type="hidden" id="displayname" />
-                <ul id="discussion"></ul>
+                <div class="col-md-12">
+                    <ul id="discussion"></ul>
+                </div>
+                <div class="col-md-11">
+                    <div class="form-group">
+                        <input type="text" id="message" class="form-control" placeholder="Type your message" />
+                        <input type="hidden" id="displayname" />
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <div class="form-group">
+                        <button type="submit" id="sendmessage" value="Send" class="btn">Send</button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
