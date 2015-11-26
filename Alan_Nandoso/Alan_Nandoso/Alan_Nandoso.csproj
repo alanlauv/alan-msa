@@ -205,6 +205,10 @@
     <Content Include="font-awesome\scss\_variables.scss" />
     <Content Include="LICENSE" />
     <Content Include="README.md" />
+    <None Include="Properties\PublishProfiles\Alan-Nandoso - FTP %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Alan-Nandoso - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\Alan-Nandoso - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Alan-Nandoso - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\cbpAnimatedHeader.js" />
     <Content Include="Scripts\cbpAnimatedHeader.min.js" />
