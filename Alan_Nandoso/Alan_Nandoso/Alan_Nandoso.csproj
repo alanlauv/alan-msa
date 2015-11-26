@@ -134,11 +134,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\index.css" />
     <Content Include="Content\agency.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\sweetalert.css" />
     <Content Include="font-awesome\css\font-awesome.css" />
     <Content Include="font-awesome\css\font-awesome.min.css" />
     <Content Include="font-awesome\fonts\fontawesome-webfont.svg" />
@@ -170,14 +172,26 @@
     <Content Include="img\portfolio\dreams.png" />
     <Content Include="img\portfolio\escape-preview.png" />
     <Content Include="img\portfolio\escape.png" />
+    <Content Include="img\portfolio\friday-preview.jpg" />
+    <Content Include="img\portfolio\friday.jpg" />
     <Content Include="img\portfolio\golden-preview.png" />
     <Content Include="img\portfolio\golden.png" />
+    <Content Include="img\portfolio\monday-preview.jpg" />
+    <Content Include="img\portfolio\monday.jpg" />
     <Content Include="img\portfolio\roundicons-free.png" />
     <Content Include="img\portfolio\roundicons.png" />
     <Content Include="img\portfolio\startup-framework-preview.png" />
     <Content Include="img\portfolio\startup-framework.png" />
+    <Content Include="img\portfolio\thursday-preview.jpg" />
+    <Content Include="img\portfolio\thursday.jpg" />
     <Content Include="img\portfolio\treehouse-preview.png" />
     <Content Include="img\portfolio\treehouse.png" />
+    <Content Include="img\portfolio\tuesday-preview.jpg" />
+    <Content Include="img\portfolio\tuesday.jpg" />
+    <Content Include="img\portfolio\wednesday-preview.jpg" />
+    <Content Include="img\portfolio\wednesday.jpg" />
+    <Content Include="img\portfolio\weekend-preview.jpg" />
+    <Content Include="img\portfolio\weekend.jpg" />
     <Content Include="img\team\1.jpg" />
     <Content Include="img\team\2.jpg" />
     <Content Include="img\team\3.jpg" />
@@ -231,11 +245,15 @@
     <Content Include="Scripts\cbpAnimatedHeader.min.js" />
     <Content Include="Scripts\classie.js" />
     <Content Include="Scripts\contact_me.js" />
+    <Content Include="Scripts\ReplyModule.js" />
+    <Content Include="Scripts\FeedbackModule.js" />
+    <Content Include="Scripts\index.js" />
     <Content Include="Scripts\jqBootstrapValidation.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Scripts\jquery.signalR-2.2.0.js" />
     <Content Include="Scripts\jquery.signalR-2.2.0.min.js" />
+    <Content Include="Scripts\sweetalert.min.js" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
   </ItemGroup>
