@@ -20,6 +20,8 @@
     <!-- Include the sweetalert.css -->
     <link rel="stylesheet" type="text/css" href="Content/sweetalert.css">
 
+    <link rel="stylesheet" href="Content/fakeLoader.css">
+
     <link rel="stylesheet" type="text/css" href="Content/index.css">
 
     <!-- Custom Fonts -->
@@ -111,6 +113,8 @@
             $("#specials").removeClass("hidden");
         }
     </script>
+
+    <div id="fakeLoader"></div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -583,7 +587,10 @@
     <!-- Include the sweetalert JavaScript file -->
     <script src="Scripts/sweetalert.min.js"></script>
 
+    <script src="Scripts/fakeLoader.min.js"></script>
+
     <script src="Scripts/FeedbackModule.js"></script>
+    <script src="Scripts/ReplyModule.js"></script>
     <script src="Scripts/index.js"></script>
 
     <!--Reference the SignalR library. -->
@@ -654,6 +661,16 @@
                 }
             });
         }
+    </script>
+
+    <script>
+    $(document).ready(function () {
+        $("#fakeloader").fakeLoader({
+            timeToHide: 1200,
+            bgColor: "#2ecc71",
+            spinner: "spinner1"
+        });
+    });
     </script>
 
 </body>

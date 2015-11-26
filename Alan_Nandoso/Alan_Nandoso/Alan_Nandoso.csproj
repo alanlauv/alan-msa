@@ -134,6 +134,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\fakeLoader.css" />
     <Content Include="Content\index.css" />
     <Content Include="Content\agency.css" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -245,6 +246,7 @@
     <Content Include="Scripts\cbpAnimatedHeader.min.js" />
     <Content Include="Scripts\classie.js" />
     <Content Include="Scripts\contact_me.js" />
+    <Content Include="Scripts\fakeLoader.min.js" />
     <Content Include="Scripts\ReplyModule.js" />
     <Content Include="Scripts\FeedbackModule.js" />
     <Content Include="Scripts\index.js" />
