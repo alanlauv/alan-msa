@@ -313,6 +313,7 @@
             </div>
             <div class="row" id="feedbackContent">
 
+                <!--
                 <div class="col-md-2">
                     <a class="btn btn-primary btn-lg btn-block btn-responsive disabled">Link</a>
                 </div>
@@ -331,6 +332,7 @@
                     <a href="#" class="btn btn-default btn-lg btn-block btn-responsive disabled">Link</a>
                 </div>
                 <div class="col-md-2"><button type="submit" class="btn btn-lg btn-block">Reply</button></div>
+                -->
 
             </div>
         </div>
@@ -354,14 +356,14 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control" placeholder="Your Feedback *" id="feedbackText" required data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Post Feedback</button>
+                                
+                                <button type="submit" class="btn btn-xl" onclick="postFeedback()">Post Feedback</button>
                             </div>
                         </div>
                     </form>

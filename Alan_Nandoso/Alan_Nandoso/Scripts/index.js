@@ -41,10 +41,7 @@ function loadFeedback() {
     }
 }
 function postFeedback() {
-    SubmitFeedbackModule.submitFeedbacks();
-
-
-
+    PostFeedbackModule.submitFeedback();
 }
 
 function loadReplies() {

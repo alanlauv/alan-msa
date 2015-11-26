@@ -27,8 +27,8 @@ function loadFeedback() {
             for (j = 0; j < replyList.length; j++) {
                 if (replyList[j].CommentID == feedbackList[i].ID) {
                     htmlCode += '<div class="col-md-1"></div><div class="col-md-2"><a href="#" class="btn btn-primary btn-lg btn-block btn-responsive disabled">' +
-                    replyList[i].Name + '</a></div><div class="col-md-7"><a href="#" class="btn btn-default btn-lg btn-block btn-responsive disabled">' +
-                    replyList[i].Body + '</a></div><div class="col-md-2"><button type="submit" class="btn btn-lg btn-block">Reply</button></div>' +
+                    replyList[j].Name + '</a></div><div class="col-md-7"><a href="#" class="btn btn-default btn-lg btn-block btn-responsive disabled">' +
+                    replyList[j].Body + '</a></div><div class="col-md-2"><button type="submit" class="btn btn-lg btn-block">Reply</button></div>' +
                     '<div class="col-md-12">&nbsp;</div>';
                 }
             }
@@ -41,10 +41,7 @@ function loadFeedback() {
     }
 }
 function postFeedback() {
-    SubmitFeedbackModule.submitFeedbacks();
-
-
-
+    PostFeedbackModule.submitFeedback();
 }
 
 function loadReplies() {

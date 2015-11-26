@@ -19,17 +19,17 @@ var FeedbackModule = (function () {
     };
 }());
 
-var SubmitFeedbackModule = (function () {
+var PostFeedbackModule = (function () {
 
     // Return anything that you want to expose outside the closure
     return {
         submitFeedback: function () {
 
-            var name = document.getElementById("feedbackName").value;
-            var feedback = document.getElementById("feedbackContent").value;
+            var name = $("#name").val();
+            var feedback = $("#feedbackText").val();
             var date = new Date();
 
-            console.log(Name, Feedback, date);
+            console.log('feed:' +feedback);
 
             $.ajax({
                 type: "POST",
@@ -39,7 +39,7 @@ var SubmitFeedbackModule = (function () {
                 url: "http://alan-nandoso.azurewebsites.net/api/Comments",
                 success: function (data) {
                     console.log(data);
-                    //location.reload();
+                    location.reload();
                 }
             });
         }

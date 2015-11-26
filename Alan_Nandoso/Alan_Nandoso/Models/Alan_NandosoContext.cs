@@ -41,17 +41,16 @@ namespace Alan_Nandoso.Models
             {
                 var comments = new List<Comment>
                 {
-                    new Comment { Name = "Carson",    Body = "Comment 1", Date = DateTime.Parse("2010-09-01") },
-                    new Comment { Name = "Alexander", Body = "COmment 2", Date = DateTime.Parse("2012-09-01") }
+                    new Comment { Name = "Carson",    Body = "The peri-peri chicken was too spicy but it was good overall", Date = DateTime.Parse("2010-09-01") },
+                    new Comment { Name = "Alexander", Body = "The food, staff and atmosphere here is great!", Date = DateTime.Parse("2012-09-01") }
                 };
                 comments.ForEach(c => context.Comments.AddOrUpdate(p => p.Name, c));
                 context.SaveChanges();
 
                 var replies = new List<Reply>
                 {
-                    new Reply {Name = "Abra", Body = "Reply 1", Date = DateTime.Parse("2010-09-01"), CommentID = comments.Single(c => c.Name == "Carson").ID },
-                    new Reply {Name = "James", Body = "Reply 2", Date = DateTime.Parse("2010-09-02"), CommentID = comments.Single(c => c.Name == "Carson").ID },
-                    new Reply {Name = "Dixon", Body = "Reply 3", Date = DateTime.Parse("2010-09-02"), CommentID = comments.Single(c => c.Name == "Alexander").ID },
+                    new Reply {Name = "Nandoso", Body = "Thanks! We hope to see you again!", Date = DateTime.Parse("2010-09-01"), CommentID = comments.Single(c => c.Name == "Carson").ID },
+                    new Reply {Name = "Nandoso", Body = "Sounds like you had a good time! Thanks, We'll keep it up!", Date = DateTime.Parse("2010-09-02"), CommentID = comments.Single(c => c.Name == "Alexander").ID },
                 };
 
                 foreach (Reply r in replies)
@@ -66,6 +65,5 @@ namespace Alan_Nandoso.Models
                 context.SaveChanges();
             }
         }
-    
     }
 }

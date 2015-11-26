@@ -19,7 +19,7 @@ var ReplyModule = (function () {
     };
 }());
 
-var SubmitFeedbackModule = (function () {
+var SubmitReplyModule = (function () {
 
     // Return anything that you want to expose outside the closure
     return {
@@ -40,11 +40,9 @@ var SubmitFeedbackModule = (function () {
                 url: "http://alan-nandoso.azurewebsites.net/api/Replies",
                 success: function (data) {
                     console.log(data);
-                    //location.reload();
+                    location.reload();
                 }
             });
         }
     };
-
-
 }());
