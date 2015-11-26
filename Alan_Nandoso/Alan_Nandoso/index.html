@@ -344,7 +344,7 @@
                 </div>
                 <div class="col-md-1">
                     <div class="form-group">
-                        <button type="submit" id="sendmessage" value="Send" class="btn">Send</button>
+                        <button type="submit" id="sendmessage" value="Send" class="btn btn-block">Send</button>
                     </div>
                 </div>
             </div>
@@ -368,7 +368,7 @@
                 <div class="col-md-9">
                     <a class="btn btn-default btn-lg btn-block disabled">Link</a>
                 </div>
-                <div class="col-md-1"><button type="submit" class="btn btn-lg">Reply</button></div>
+                <div class="col-md-1"><button type="submit" class="btn btn-lg btn-block" onclick="replyFeedback()">Reply</button></div>
 
                 <div class="col-md-12">&nbsp;</div>
 
@@ -379,7 +379,7 @@
                 <div class="col-md-8">
                     <a href="#" class="btn btn-default btn-lg btn-block disabled">Link</a>
                 </div>
-                <div class="col-md-1"><button type="submit" class="btn btn-lg">Reply</button></div>
+                <div class="col-md-1"><button type="submit" class="btn btn-lg btn-block">Reply</button></div>
 
             </div>
         </div>
@@ -676,7 +676,7 @@
             }, function (inputValue) {
                 $('#displayname').val(inputValue);
             });
-            
+
             // Set initial focus to message input box.
             $('#message').focus();
             // Start the connection.
@@ -687,6 +687,31 @@
                     // Clear text box and reset focus for next comment.
                     $('#message').val('').focus();
                 });
+            });
+        }
+
+
+        function replyFeedback() {
+            swal({
+                title: "Nandoso Employee Authorisation",
+                text: 'Please enter the authorisation code:',
+                type: 'input',
+                showCancelButton: true,
+                closeOnConfirm: false,
+                animation: "slide-from-top"
+            }, function (inputValue) {
+                if (inputValue == "1234") {
+
+                    swal({
+                        title: "Reply to Customer Feedback",
+                        type: 'input',
+                        showCancelButton: true,
+                        closeOnConfirm: true,
+                        animation: "slide-from-top"
+                    }, function (inputValue) {
+
+                    });
+                }
             });
         }
     </script>
