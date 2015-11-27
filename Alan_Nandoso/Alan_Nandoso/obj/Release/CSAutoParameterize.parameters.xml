@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="Alan_NandosoContext-Web.config Connection String" description="Alan_NandosoContext Connection String used in web.config by the application to access the database." defaultValue="Database=Alan-Nandoso-DB3;Data Source=au-cdbr-azure-east-a.cloudapp.net;User Id=b8bbf2d1b98799;Password=c72f12de" tags="SqlConnectionString">
+  <parameter name="Alan_NandosoContext-Web.config Connection String" description="Alan_NandosoContext Connection String used in web.config by the application to access the database." defaultValue="Database=Alan-Nandoso-DB4;Data Source=au-cdbr-azure-east-a.cloudapp.net;User Id=b6fb5f421d9afb;Password=df384f04" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="C:\\Users\\Alan\\Documents\\GitHub\\alan-msa\\Alan_Nandoso\\Alan_Nandoso\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Alan_NandosoContext']/@connectionString" />
   </parameter>
 </parameters>

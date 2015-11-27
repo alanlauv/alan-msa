@@ -19,22 +19,20 @@ var ReplyModule = (function () {
     };
 }());
 
-var SubmitReplyModule = (function () {
+var PostReplyModule = (function () {
 
     // Return anything that you want to expose outside the closure
     return {
-        submitFeedback: function () {
+        submitReply: function (commentID, reply) {
 
-            var name = document.getElementById("feedbackName").value;
-            var reply = document.getElementById("feedbackContent").value;
+            var name = "Nandoso";
             var date = new Date();
-            //var commentID = 
 
-            console.log(Name, Feedback, date);
+            console.log(reply + ' && ' + commentID);
 
             $.ajax({
                 type: "POST",
-                data: JSON.stringify({ Name: name, Body: reply, Date: date }),
+                data: JSON.stringify({ Name: name, Body: reply, Date: date, CommentID: commentID }),
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
                 url: "http://alan-nandoso.azurewebsites.net/api/Replies",

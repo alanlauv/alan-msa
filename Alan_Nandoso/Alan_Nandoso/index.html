@@ -640,7 +640,7 @@
         }
 
 
-        function replyFeedback() {
+        function replyFeedback(commentID) {
             swal({
                 title: "Nandoso Employee Authorisation",
                 text: 'Please enter the authorisation code:',
@@ -649,7 +649,7 @@
                 closeOnConfirm: false,
                 animation: "slide-from-top"
             }, function (inputValue) {
-                if (inputValue == "1234") {
+                if (inputValue == "1234") { // PASSWORD IS '1234'
 
                     swal({
                         title: "Reply to Customer Feedback",
@@ -658,7 +658,7 @@
                         closeOnConfirm: true,
                         animation: "slide-from-top"
                     }, function (inputValue) {
-
+                        postReply(commentID, inputValue);
                     });
                 }
             });
